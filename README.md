@@ -11,9 +11,7 @@ The progam is ran through a file ran in a linux interface called create.sh, whic
 
 Example:
 
-        ./create.sh myStack Network.yml networkparams.json
-        
-
+    ./create.sh myStack Network.yml networkparams.json
 
     Argument 1: What you wish to name your cloudFormation.
 
