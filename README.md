@@ -44,6 +44,8 @@ This file brings the server live, and put it into the private subnet, connecting
 This also creates our "Auto-Scaling Group" in the diagram.
 
 this contains a
+
+
     Security Group,
     >>this defines who is allowed to access the server individually or as a whole.
     AMItoUse,
