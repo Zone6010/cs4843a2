@@ -44,14 +44,14 @@ This file brings the server live, and put it into the private subnet, connecting
 This also creates our "Auto-Scaling Group" in the diagram.
 
 this contains a
-        Security Group,
-        >>this defines who is allowed to access the server individually or as a whole.
-        AMItoUse,
-        >>This defines how the server will be "made", using an AMI. Documentation on AMIs can be found here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html
-        WebServer,
-        >>This is the instance that the user will see or ping with this project, in other words, the "product".
-        Key.
-        >>This is the unique key to get the server live and connected by the command.
+            Security Group,
+            >>this defines who is allowed to access the server individually or as a whole.
+            AMItoUse,
+            >>This defines how the server will be "made", using an AMI. Documentation on AMIs can be found here: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html
+            WebServer,
+            >>This is the instance that the user will see or ping with this project, in other words, the "product".
+            Key.
+            >>This is the unique key to get the server live and connected by the command.
         
 
 
