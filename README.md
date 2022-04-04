@@ -9,26 +9,26 @@ and EC2 servers.
 
 The progam is ran through a file ran in a linux interface called create.sh, which takes in 3 arguments.
 
-Argument 1: What you wish to name your cloudFormation.
+    Argument 1: What you wish to name your cloudFormation.
 
-Argument 2: The yml file that contains resources that will call upon argument 3 for definitions.
+    Argument 2: The yml file that contains resources that will call upon argument 3 for definitions.
 
-Argument 3: The parameter's values in a JSON file.
+    Argument 3: The parameter's values in a JSON file.
 
 # Network.yml
 This file creates the "Networks": 
 
-  The VPC, 
+    The VPC, 
   
-  the Internet Gateway, 
+    the Internet Gateway, 
   
-  Public subnets 1 and 2, 
+    Public subnets 1 and 2, 
   
-  NAT gateways for the public subnets,
+    NAT gateways for the public subnets,
   
-  Private subnets 1 and 2,
+    Private subnets 1 and 2,
   
-  public and private route tables.
+    Public and private route tables.
   
 
 
