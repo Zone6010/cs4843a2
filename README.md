@@ -5,6 +5,8 @@ This is a project for Cloud Computing at UTSA by Zachary Bowman, made with
 the intent of deploying a website using Amazon's command-line compatability
 and EC2 servers.
 
+
+
 # AWS Deployment Using Command-Line Interface
 
 The progam is ran through a file ran in a linux interface called create.sh, which takes in 3 arguments.
@@ -32,11 +34,17 @@ This file creates the "Networks":
     NAT gateways for the public subnets,
         
     Private subnets 1 and 2,
-  
+        
     Public and private route tables.
-  
+        
 
 
-# Hosting Via Cloudfront
+# Server-And-Security.yml
+This file brings the server live, and put it into the private subnet, connecting to the VPC for in/out control.
+This also creates our "Auto-Scaling Group" in the diagram.
 
+
+
+# Storage-and-Database.yml
+This file sets up the storage bucket into the private subnet to be accessed by only the servers whitelisted in the project.
 
