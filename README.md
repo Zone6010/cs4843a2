@@ -32,11 +32,11 @@ This file creates the "Networks":
     Public subnets 1 and 2, 
         >>This is where our VPC will live, and with it an elastic (unchanging) IP address.
     NAT gateways for the public subnets,
-        
+        >>This will be the middleman in our public subnet and the only thing allowed to ping our private servers.
     Private subnets 1 and 2,
-        
+        >>This will allow an area that can not be pinged by the outside unless specifically allowed to.
     Public and private route tables.
-        
+        >>This will provide a direction for traffic in these areas.
 
 
 # Server-And-Security.yml
