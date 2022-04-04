@@ -17,19 +17,20 @@ The progam is ran through a file ran in a linux interface called create.sh, whic
     
 # Example
 
-    ./create.sh myStack Network.yml networkparams.json
+    ./create.sh myStack network.yml networkParams.json
 
 # Network.yml
 This file creates the "Networks": 
 
     The VPC, 
-  
-    the Internet Gateway, 
-  
+        >>This is the mediator to connect the autobalancer to the webservers.
+        >>This will accept an IP range described by the user for in/out.
+    The Internet Gateway, 
+        >>This is the way the program connects to the internet, without it there is no in/out traffic.
     Public subnets 1 and 2, 
-  
+        >>This is where our VPC will live, and with it an elastic (unchanging) IP address.
     NAT gateways for the public subnets,
-  
+        
     Private subnets 1 and 2,
   
     Public and private route tables.
