@@ -9,15 +9,15 @@ and EC2 servers.
 
 The progam is ran through a file ran in a linux interface called create.sh, which takes in 3 arguments.
 
-Example:
-
-    ./create.sh myStack Network.yml networkparams.json
-
     Argument 1: What you wish to name your cloudFormation.
 
     Argument 2: The yml file that contains resources that will call upon argument 3 for definitions.
 
     Argument 3: The parameter's values in a JSON file.
+    
+# Example
+
+    ./create.sh myStack Network.yml networkparams.json
 
 # Network.yml
 This file creates the "Networks": 
