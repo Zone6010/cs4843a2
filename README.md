@@ -5,6 +5,7 @@ This is a project for Cloud Computing at UTSA by Zachary Bowman, made with
 the intent of deploying a website using Amazon's command-line compatability
 and EC2 servers.
 
+For a visual representation of what we are creating please see "https://github.com/Zone6010/cs4843a2/blob/main/Screenshot%20(173).png"
 
 
 # AWS Deployment Using Command-Line Interface
